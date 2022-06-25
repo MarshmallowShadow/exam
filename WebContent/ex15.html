@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Array</title>
+	</head>
+	<body>
+		Press F12 to pay respects
+	</body>
+	<script type="text/javascript">
+		var array = [];
+		var guestVo = {
+			name: "Marsh",
+			password: "1234",
+			content: "NOOOOOOOOOOOOOOO",
+			showInfo: function(){
+				console.log(this.name + ", " + this.password + ", " + this.content);
+			}
+		};
+		console.log(guestVo);
+		guestVo.showInfo();
+		
+		var personVo = {
+			name: "Marsh",
+			hp: "010-2074-8889",
+			company: "unemployed"
+		}
+		
+		personVo.company = "02-666-666";
+		console.log(personVo);
+		
+		personVo.age = 25;
+		console.log(personVo);
+		
+	</script>
+</html>

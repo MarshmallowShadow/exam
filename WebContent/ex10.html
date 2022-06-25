@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Function</title>
+	</head>
+	<body>
+		Press F12 to pay respects
+	</body>
+	<script type="text/javascript">
+		//(Cycle 2: checks var test, replaces old test to new test)
+		var test = function(){
+			console.log("Testing test var");
+		}
+		
+		//(Cycle 1: checks for existence of function)
+		function test(){
+			console.log("Testing test function");
+		}
+		
+		//(Cycle 2: calls for test saved in var)
+		test();
+	</script>
+</html>
